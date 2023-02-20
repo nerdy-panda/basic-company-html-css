@@ -1,0 +1,29 @@
+/*------ import ------*/
+    @import url("header/header.css");
+    @import url("main/main.css");
+    @import url("footer/footer.css");
+/*------ import ------*/
+.newsItem
+{
+    display: inline-block;
+    width: 31%;
+    line-height: 2;
+    margin-left: 2%;
+    margin-bottom: 65px;
+    box-shadow: rgba(0, 0, 0, 0.65) 0px 0px 25px 0px;
+    border-radius: 5px;
+}
+
+.newsItem:nth-child(3n+3)
+{
+    margin-left: unset;
+}
+.newsItem:nth-last-of-type(-n+3)
+{
+  margin-bottom: unset;
+
+}
+.newsItem:hover
+{
+    box-shadow: rgba(0, 0, 0, 0.75) 0px 0px 30px 3px;
+}

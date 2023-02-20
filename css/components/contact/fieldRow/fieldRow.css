@@ -1,0 +1,19 @@
+/*------ import ------*/
+    @import url("field/field.css");
+    @import url("label/label.css");
+    @import url("fieldBorder/fieldBorder.css");
+/*------ import ------*/
+#contact .contactFieldRow
+{
+    width: 80%;
+    margin: 65px auto;
+    position: relative;
+}
+#contact .contactFieldRow:first-child
+{
+    margin-top: unset;
+}
+#contact .contactFieldRow:last-child
+{
+    margin-bottom: unset;
+}

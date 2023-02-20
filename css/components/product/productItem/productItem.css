@@ -1,0 +1,20 @@
+/*------ import ------*/
+    @import url("header/header.css");
+    @import url("main/main.css");
+    @import url("footer/footer.css");
+/*------ import ------*/
+
+.product
+{
+    width: 23%;
+    display: inline-block;
+    box-shadow: rgba(0, 0, 0, 0.65) 0px 0px 25px 0px;
+    margin-left: 22px;
+    text-decoration: none;
+    color: inherit;
+    border-radius: 5px;
+}
+.product:last-child
+{
+    margin-left: unset;
+}

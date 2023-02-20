@@ -1,0 +1,8 @@
+.separator .iconWrapper i {
+    font-size: 40px;
+    transition: all 333ms linear;
+}
+.separator:hover .iconWrapper i
+{
+    transform:rotateZ(360deg);
+}

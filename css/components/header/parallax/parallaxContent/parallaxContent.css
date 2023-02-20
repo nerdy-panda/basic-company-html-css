@@ -1,0 +1,33 @@
+/*------ import ------*/
+    @import url("title/title.css");
+    @import url("description/description.css");
+/*------ import ------*/
+
+section#headerParallaxContent
+{
+    background-color: rgba(0 , 0 , 0 , 0.6);
+    color: white;
+    width: 50%;
+    margin: 0 auto;
+    height: 250px;
+    border-radius: 5px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 68px 0;
+    transition: background-color 350ms linear;
+}
+section#headerParallaxContent:hover
+{
+    background: rgba(0 , 0 , 0 , 0.9);
+
+}
+
+section#headerParallaxContent:hover h1{
+    font-size: 60px;
+}
+
+section#headerParallaxContent:hover p
+{
+    font-weight: bold;
+    font-size: 30px;
+}

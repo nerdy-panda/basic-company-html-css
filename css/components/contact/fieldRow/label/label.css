@@ -1,0 +1,19 @@
+/*------ import ------*/
+    @import url("icon/icon.css");
+    @import url("labelText/labelText.css");
+/*------ import ------*/
+#contact label
+{
+    position: absolute;
+    right: 0;
+    top: -3px;
+    transition: top  300ms linear;
+}
+#contact #message + label
+{
+    top:2px;
+}
+#contact input:focus + label , #contact textarea:focus + label
+{
+    top: -28px !important;
+}

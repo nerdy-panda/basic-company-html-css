@@ -1,0 +1,15 @@
+/*------ import ------*/
+    @import url("parallaxContent/parallaxContent.css");
+/*------ import ------*/
+
+section#headerParallax
+{
+    min-height: 666px;
+    background-image: url("../../../../img/fotis-fotopoulos-6sAl6aQ4OWI-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: top left;
+    background-attachment:fixed ;
+    padding-top: 150px;
+    box-sizing: border-box;
+}

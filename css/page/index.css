@@ -1,2 +1,7 @@
 @import url("../lib/bootstrap.css");
-@import url('../components/welcome.css');
+@import url("../components/header/header.css");
+@import url("../components/separator/separator.css");
+@import url("../components/product/productContainer.css");
+@import url("../components/news/newsContainer.css");
+@import url("../components/contact/contact.css");
+@import url("../components/footer/footer.css");

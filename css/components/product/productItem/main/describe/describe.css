@@ -1,0 +1,6 @@
+.product main p
+{
+    box-sizing: border-box;
+    padding:0 10px ;
+    text-indent: 10px;
+}

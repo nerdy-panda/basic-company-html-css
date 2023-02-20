@@ -1,0 +1,12 @@
+.product header img
+{
+    width: 100%;
+    height: 222px;
+    transition: all 300ms ease-in;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.product:hover header img
+{
+    transform: scale(1.25 , 1.25);
+}

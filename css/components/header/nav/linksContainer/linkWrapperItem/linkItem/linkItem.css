@@ -1,0 +1,17 @@
+/*------ import ------*/
+
+    @import url("linkIcon/linkIcon.css");
+    @import url("linkText/linkText.css");
+
+/*------ import ------*/
+
+ul#linksContainer li a
+{
+    display: inline-block;
+    height: inherit;
+    text-decoration: unset;
+    padding: 0 15px;
+    line-height: 75px;
+    transition: all 600ms ease-out  450ms;
+    color: white;
+}

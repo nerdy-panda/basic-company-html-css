@@ -1,0 +1,59 @@
+#contact textarea
+{
+    resize: none;
+}
+#contact input
+{
+    padding-bottom: 5px;
+}
+#contact input , #contact textarea
+{
+    width: 100%;
+    font-family: inherit;
+    background: transparent;
+    border: unset;
+    border-bottom: 2px solid black;
+    color: #10B981;
+    box-sizing: border-box;
+
+}
+#fullName
+{
+    text-indent: 55px;
+}
+#email
+{
+    text-indent:81px;
+}
+#message
+{
+    text-indent: 64px;
+}
+#contact input:focus , #contact textarea:focus
+{
+    text-indent: unset;
+    outline: unset;
+}
+
+#contact button
+{
+    border: unset;
+    border-radius: 3px;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 10px 20px;
+    color: white;
+    background: transparent;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+#contact button:first-child
+{
+    background: #10B981;
+    margin-left: 150px;
+}
+#contact button:last-child
+{
+    background: #b91d1d;
+}

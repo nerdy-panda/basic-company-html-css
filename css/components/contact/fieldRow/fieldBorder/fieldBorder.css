@@ -1,0 +1,16 @@
+
+.fieldBorder
+{
+    min-height: 2px;
+    background:#10B981;
+    width: 0;
+    margin: 0 auto;
+    position: relative;
+    bottom: 3px;
+    transition: width 333ms linear 150ms;
+}
+
+#contact input:focus + label + .fieldBorder , #contact textarea:focus + label + .fieldBorder
+{
+    width: 100%;
+}

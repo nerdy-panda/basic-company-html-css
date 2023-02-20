@@ -1,0 +1,7 @@
+/*------ import ------*/
+    @import url("productItem/productItem.css");
+/*------ import ------*/
+.productContainer
+{
+    text-align: center;
+}

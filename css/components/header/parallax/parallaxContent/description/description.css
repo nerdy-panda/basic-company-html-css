@@ -1,0 +1,6 @@
+section#headerParallaxContent p
+{
+    font-size: 25px;
+    transition: font-weight , font-size 400ms ease-in-out 400ms;
+    margin: 0px;
+}

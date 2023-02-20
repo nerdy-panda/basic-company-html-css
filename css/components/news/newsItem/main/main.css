@@ -1,0 +1,10 @@
+/*------ import ------*/
+    @import url("title/title.css");
+    @import url("description/description.css");
+/*------ import ------*/
+
+.newsItem main
+{
+    padding:0 30px;
+    box-sizing: border-box;
+}

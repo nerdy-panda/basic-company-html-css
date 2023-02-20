@@ -1,0 +1,10 @@
+/*------ import ------*/
+    @import url("thumbnail/thumbnail.css");
+/*------ import ------*/
+.product header
+{
+    margin-bottom: 22px;
+    overflow: hidden;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
